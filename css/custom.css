@@ -6933,7 +6933,6 @@ a{
     border-radius:50%;
     font-size:26px !important;
     color:#fff;
-    background:var(--pulse-teal);
     margin-bottom:12px;
   }
   .btn-pulse{
@@ -6944,8 +6943,6 @@ a{
     background:var(--pulse-teal);
     color:#fff;
   }
-
-
 
 
 .service-icon{

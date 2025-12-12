@@ -7685,14 +7685,14 @@ body>script:last-of-type {
 /* -----  SERVICE CARD  ----- */
 .service-card {
     flex: 0 0 280px;
-    background: rgba(8, 13, 24, .95);
+    background: linear-gradient(135deg, #0f3263, #234471);
     border: 1px solid rgba(255, 255, 255, .06);
     border-radius: 14px;
     padding: 24px 20px;
     box-shadow: 0 16px 40px rgba(0, 0, 0, .45);
     text-align: center;
     transition: .25s ease;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .service-card:hover {
@@ -7725,8 +7725,8 @@ body>script:last-of-type {
 }
 
 .service-card p {
-    font-size: 13px;
-    line-height: 1.55;
+    font-size: 16px;
+    line-height: 1.5;
     color: rgba(255, 255, 255, .82);
     margin: 0
 }

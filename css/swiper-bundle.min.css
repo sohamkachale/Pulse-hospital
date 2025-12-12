@@ -342,7 +342,7 @@
 .swiper-button-next:after,
 .swiper-button-prev:after {
     font-family: swiper-icons;
-    font-size: var(--swiper-navigation-size);
+    /* font-size: var(--swiper-navigation-size); */
     text-transform: none !important;
     letter-spacing: 0;
     font-variant: initial;
@@ -366,7 +366,7 @@
 }
 
 .swiper-pagination {
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
     transition: .3s opacity;
     transform: translate3d(0, 0, 0);

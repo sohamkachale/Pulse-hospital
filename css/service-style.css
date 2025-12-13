@@ -15,7 +15,7 @@
 }
 
 .emergency-tag {
-    background:  #0f3263 ;
+    background: #0f3263;
     color: white;
     padding: 4px 12px;
     border-radius: 4px;
@@ -25,9 +25,17 @@
 }
 
 @keyframes pulse {
-    0% { opacity: 1; }
-    50% { opacity: 0.7; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .emergency-text {
@@ -35,6 +43,7 @@
     font-weight: 600;
     font-size: 14px;
 }
+
 
 /* Emergency Hero Section */
 .emergency-hero-section {
@@ -51,7 +60,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: 
+    background:
         radial-gradient(circle at 10% 20%, rgba(255, 59, 59, 0.03) 0%, transparent 40%),
         radial-gradient(circle at 90% 80%, rgba(255, 59, 59, 0.03) 0%, transparent 40%);
 }
@@ -170,7 +179,153 @@
     color: #ff3b3b;
 }
 
-/* Emergency Card Stack */
+/* ========== MOBILE RESPONSIVE STYLES ========== */
+
+/* Tablet Devices (768px - 991px) */
+@media (max-width: 991px) {
+    .emergency-cta-box {
+        padding: 25px;
+        border-radius: 18px;
+    }
+
+    .cta-icon {
+        width: 65px;
+        height: 65px;
+        font-size: 26px;
+    }
+
+    .cta-number {
+        font-size: 28px;
+    }
+
+    .btn-emergency-call, .btn-emergency-locate {
+        padding: 12px 22px;
+    }
+}
+
+/* Mobile Devices (576px - 767px) */
+@media (max-width: 767px) {
+    .emergency-cta-box {
+        padding: 20px;
+        border-radius: 16px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .cta-main {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+
+    .cta-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .cta-number {
+        font-size: 26px;
+    }
+
+    .cta-content .cta-label {
+        font-size: 13px;
+    }
+
+    .cta-content p {
+        font-size: 13px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .btn-emergency-call, .btn-emergency-locate {
+        padding: 14px 25px;
+        justify-content: center;
+        width: 100%;
+        font-size: 15px;
+    }
+}
+
+/* Small Mobile Devices (Below 576px) */
+@media (max-width: 575px) {
+    .emergency-cta-box {
+        padding: 18px;
+        border-radius: 14px;
+        margin: 0 10px;
+    }
+
+    .cta-icon {
+        width: 55px;
+        height: 55px;
+        font-size: 22px;
+    }
+
+    .cta-number {
+        font-size: 24px;
+    }
+
+    .cta-content .cta-label {
+        font-size: 12px;
+    }
+
+    .cta-content p {
+        font-size: 12px;
+    }
+
+    .btn-emergency-call, .btn-emergency-locate {
+        padding: 13px 20px;
+        font-size: 14px;
+    }
+}
+
+/* Extra Small Mobile Devices (Below 400px) */
+@media (max-width: 400px) {
+    .emergency-cta-box {
+        padding: 15px;
+    }
+
+    .cta-main {
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    .cta-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .cta-number {
+        font-size: 22px;
+    }
+
+    .btn-emergency-call, .btn-emergency-locate {
+        padding: 12px 15px;
+        font-size: 13px;
+    }
+}
+
+/* Large Desktop (1200px and above) - Optional for better scaling */
+@media (min-width: 1200px) {
+    .emergency-cta-box {
+        padding: 35px;
+    }
+
+    .cta-icon {
+        width: 75px;
+        height: 75px;
+        font-size: 30px;
+    }
+
+    .cta-number {
+        font-size: 34px;
+    }
+}
+
+/* Emergency Card Stack - Desktop (unchanged) */
 .emergency-card-stack {
     position: relative;
     height: 400px;
@@ -184,11 +339,13 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(0, 0, 0, 0.05);
     transition: all 0.4s ease;
+    cursor: pointer;
 }
 
 .card-stack-item:hover {
-    transform: translateY(-10px);
+    transform: translateY(-40px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    z-index: 10;
 }
 
 .card-1 {
@@ -198,13 +355,13 @@
 }
 
 .card-2 {
-    top: 120px;
+    top: 130px;
     left: 0;
     width: 280px;
 }
 
 .card-3 {
-    bottom: 0;
+    bottom: -70px;
     right: 40px;
     width: 280px;
 }
@@ -234,6 +391,175 @@
     font-size: 14px;
 }
 
+/* Mobile Responsive Styles */
+@media (max-width: 992px) {
+    .emergency-card-stack {
+        height: 380px;
+        margin: 0 auto;
+        max-width: 300px;
+    }
+    
+    .card-stack-item {
+        padding: 22px;
+        width: 260px;
+    }
+    
+    .card-1 {
+        right: 10px;
+    }
+    
+    .card-2 {
+        left: 10px;
+        top: 120px;
+    }
+    
+    .card-3 {
+        right: 30px;
+        bottom: -60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .emergency-card-stack {
+        height: 360px;
+        max-width: 280px;
+    }
+    
+    .card-stack-item {
+        padding: 20px;
+        width: 240px;
+    }
+    
+    .card-1 {
+        right: 20px;
+        top: 10px;
+    }
+    
+    .card-2 {
+        left: 20px;
+        top: 110px;
+    }
+    
+    .card-3 {
+        right: 20px;
+        bottom: -50px;
+    }
+    
+    /* Mobile hover effect - less movement */
+    .card-stack-item:hover {
+        transform: translateY(-30px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    }
+}
+
+@media (max-width: 576px) {
+    .emergency-card-stack {
+        height: 340px;
+        max-width: 260px;
+        margin: 0 auto 40px;
+    }
+    
+    .card-stack-item {
+        padding: 18px;
+        width: 220px;
+    }
+    
+    .card-1 {
+        right: 20px;
+        top: 5px;
+    }
+    
+    .card-2 {
+        left: 20px;
+        top: 100px;
+    }
+    
+    .card-3 {
+        right: 20px;
+        bottom: -40px;
+    }
+    
+    .card-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    
+    .card-content h4 {
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+    
+    .card-content p {
+        font-size: 13px;
+    }
+    
+    /* Reduce hover movement for mobile */
+    .card-stack-item:hover {
+        transform: translateY(-25px);
+    }
+}
+
+@media (max-width: 400px) {
+    .emergency-card-stack {
+        height: 320px;
+        max-width: 240px;
+    }
+    
+    .card-stack-item {
+        padding: 16px;
+        width: 200px;
+    }
+    
+    .card-1 {
+        right: 20px;
+    }
+    
+    .card-2 {
+        left: 20px;
+        top: 90px;
+    }
+    
+    .card-3 {
+        right: 20px;
+        bottom: -30px;
+    }
+    
+    .card-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    
+    .card-content h4 {
+        font-size: 17px;
+    }
+    
+    .card-content p {
+        font-size: 12.5px;
+    }
+    
+    .card-stack-item:hover {
+        transform: translateY(-20px);
+    }
+}
+
+/* Touch Device Support */
+@media (hover: none) and (pointer: coarse) {
+    /* Active state for touch devices (tap effect) */
+    .card-stack-item:active {
+        transform: translateY(-25px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    
+    /* Disable hover effects on touch devices */
+    .card-stack-item:hover {
+        transform: none;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+}
 
 
 
@@ -359,13 +685,13 @@
     .service-card h3 {
         font-size: 20px;
     }
-    
+
     .service-icon-box {
         width: 55px;
         height: 55px;
         font-size: 22px;
     }
-    
+
     .service-number {
         width: 36px;
         height: 36px;
@@ -377,11 +703,11 @@
     .emergency-services-section {
         padding: 80px 0;
     }
-    
+
     .section-header h2 {
         font-size: 36px;
     }
-    
+
     .service-card {
         padding: 25px;
     }
@@ -391,21 +717,21 @@
     .emergency-services-section {
         padding: 60px 0;
     }
-    
+
     .section-header h2 {
         font-size: 28px;
     }
-    
+
     .service-card h3 {
         font-size: 18px;
     }
-    
+
     .service-icon-box {
         width: 50px;
         height: 50px;
         font-size: 20px;
     }
-    
+
     .service-number {
         width: 32px;
         height: 32px;
@@ -417,132 +743,20 @@
     .service-card {
         padding: 20px;
     }
-    
+
     .service-header {
         margin-bottom: 15px;
     }
 }
 
 
-/* Why Choose Us Section - Horizontal Scroller */
-.horizontal-scroller-wrapper {
-  position: relative; /* Ensure the wrapper is positioned relatively for the arrows to be placed on the sides */
-  overflow: hidden; /* Hide anything that exceeds the bounds of the container */
-}
-
-.horizontal-scroll-container {
-  display: flex;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  scroll-snap-type: x mandatory; /* Ensure smooth scrolling */
-  gap: 15px;
-}
-
-.scroller-track {
-  display: flex;
-}
-
-.feature-card {
-  width: 200px;
-  flex-shrink: 0;
-  background: #f7f7f7;
-  border-radius: 8px;
-  padding: 20px;
-  text-align: center;
-}
-
-.scroller-controls {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transform: translateY(-50%);
-  z-index: 1;
-  width: 100%; /* Take up the full width of the parent container */
-}
-
-.scroll-btn {
-  background: transparent;
-  border: none;
-  font-size: 24px;
-  color: #333;
-  cursor: pointer;
-  z-index: 2;
-}
-
-.scroll-prev {
-  position: absolute;
-  left: 25px; /* Place it on the left side of the container */
-}
-
-.scroll-next {
-  position: absolute;
-  right: 20px; /* Place it on the right side of the container */
-}
-
-.scroll-btn:hover {
-  color: #000;
-}
-
-.scroll-indicator {
-  display: none;
-}
-
-.scroll-hint {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #888;
-  font-size: 14px;
-}
-
-.scroll-hint i {
-  font-size: 16px;
-  margin-left: 5px;
-}
-
-/* For the active dot and hover effect */
-.indicator-dots .dot {
-  height: 8px;
-  width: 8px;
-  border-radius: 50%;
-  background-color: #ccc;
-  margin: 0 5px;
-  cursor: pointer;
-}
-
-.indicator-dots .dot.active {
-  background-color: #333;
-}
-
-.why-emergency-section {
-    padding: 80px 0;
-    position: relative;
-    /* background: #0a0a0a; */
-}
-
-.section-header .lead-text {
-    font-size: 16px;
-    color: gray;
-    max-width: 800px;
-    margin: 0 auto 40px;
-    line-height: 1.6;
-    font-weight: 400;
-}
-
-.section-header .lead-text strong {
-    color: #fff;
-    font-weight: 600;
-}
 
 /* Horizontal Scroller Wrapper */
 .horizontal-scroller-wrapper {
     position: relative;
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* Scroller Controls */
@@ -620,6 +834,7 @@
     position: relative;
     width: 100%;
     padding: 0 15px;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
 }
 
 .scroller-track {
@@ -627,11 +842,12 @@
     gap: 20px;
     transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     padding: 10px 5px;
+    will-change: transform; /* Optimize for mobile */
 }
 
 /* Feature Cards - Perfect Sizing for Hospital Website */
 .feature-card {
-    flex: 0 0 360px; /* Fixed width matching hospital design */
+    flex: 0 0 360px;
     background: linear-gradient(#0f3263, #335688);
     border-radius: 12px;
     padding: 25px 20px;
@@ -644,10 +860,10 @@
     flex-direction: column;
     height: 200px;
     box-sizing: border-box;
+    touch-action: pan-y; /* Allow vertical scrolling within card on mobile */
 }
 
 .feature-card:hover {
-    background: ;
     transform: translateY(-3px);
     border-color: #4a6fff;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
@@ -752,8 +968,6 @@
     color: white;
 }
 
-
-
 /* Scroll Hint */
 .scroll-hint {
     text-align: center;
@@ -774,181 +988,345 @@
 }
 
 @keyframes bounceHorizontal {
-    0%, 100% { transform: translateX(0); }
-    50% { transform: translateX(3px); }
+    0%, 100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(3px);
+    }
 }
 
-/* Responsive Styles */
+/* ========== MOBILE RESPONSIVE STYLES ========== */
+
+/* Tablet (768px - 1199px) */
 @media (max-width: 1199px) {
     .horizontal-scroller-wrapper {
         max-width: 960px;
     }
-    
+
     .feature-card {
         flex: 0 0 340px;
-        height: 250px;
+        height: 190px;
         padding: 22px 18px;
     }
-    
+
     .card-content h3 {
         font-size: 17px;
     }
-    
+
     .card-content p {
         font-size: 13.5px;
     }
-}
-
-@media (max-width: 991px) {
-    .why-emergency-section {
-        padding: 70px 0;
+    
+    /* Enable touch scrolling on tablet */
+    .horizontal-scroll-container {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+        cursor: grab;
     }
     
-    .horizontal-scroller-wrapper {
-        max-width: 720px;
+    .horizontal-scroll-container:active {
+        cursor: grabbing;
+    }
+    
+    .scroller-track {
+        transition: none; /* Disable JS transition for native scrolling */
     }
     
     .feature-card {
+        scroll-snap-align: center;
+    }
+}
+
+/* Medium Tablet (576px - 991px) */
+@media (max-width: 991px) {
+    .horizontal-scroller-wrapper {
+        max-width: 720px;
+        padding: 0 10px;
+    }
+
+    .feature-card {
         flex: 0 0 320px;
-        height: 240px;
+        height: 180px;
         padding: 20px 16px;
     }
-    
+
     .scroller-controls {
         margin-bottom: 25px;
     }
-    
+
     .scroll-btn {
         width: 40px;
         height: 40px;
         font-size: 14px;
+        display: none; /* Hide buttons on mobile for native scrolling */
     }
-    
+
     .card-number {
         font-size: 28px;
     }
-    
+
     .card-icon {
         width: 48px;
         height: 48px;
         font-size: 18px;
         margin-bottom: 15px;
     }
-    
+
     .card-content h3 {
         font-size: 16px;
     }
-    
+
     .card-content p {
         font-size: 13px;
     }
-}
-
-@media (max-width: 767px) {
-    .why-emergency-section {
-        padding: 60px 0;
-    }
     
-    .section-header .lead-text {
-        font-size: 15px;
-        margin-bottom: 35px;
-        padding: 0 15px;
-    }
-    
-    .horizontal-scroller-wrapper {
-        max-width: 540px;
-    }
-    
-    .feature-card {
-        flex: 0 0 300px;
-        height: 230px;
-        padding: 18px 15px;
-    }
-    
-    .scroller-controls {
+    /* Enhanced mobile scrolling */
+    .horizontal-scroll-container {
         padding: 0 5px;
-        margin-bottom: 20px;
+    }
+    
+    .scroller-track {
+        gap: 15px;
+        padding: 10px 0;
     }
     
     .scroll-indicator {
-        max-width: 150px;
-        margin: 0 10px;
+        display: flex;
+        justify-content: center;
+        margin: 20px auto 0;
+        max-width: 100%;
     }
-    
+}
+
+/* Mobile (Below 768px) */
+@media (max-width: 767px) {
+    .horizontal-scroller-wrapper {
+        max-width: 540px;
+        padding: 0 15px;
+    }
+
+    .feature-card {
+        flex: 0 0 300px;
+        height: 170px;
+        padding: 18px 15px;
+    }
+
+    .scroller-controls {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .scroll-btn {
+        display: none; /* Completely hide buttons on mobile */
+    }
+
+    .scroll-indicator {
+        margin: 15px auto 0;
+    }
+
     .dot {
         width: 6px;
         height: 6px;
     }
-    
+
     .card-content h3 {
         font-size: 15px;
         margin-bottom: 8px;
     }
-    
+
     .card-content p {
         font-size: 12.5px;
         line-height: 1.4;
     }
-    
+
     .card-icon {
         width: 44px;
         height: 44px;
         font-size: 16px;
         margin-bottom: 12px;
     }
-    
+
     .card-number {
         font-size: 26px;
         top: 12px;
         right: 12px;
     }
-    
+
     .scroll-hint {
         font-size: 12px;
-        margin-top: 20px;
+        margin-top: 15px;
+    }
+    
+    /* Mobile scroll improvements */
+    .horizontal-scroll-container {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 0 15px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+    }
+    
+    .horizontal-scroll-container::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+    }
+    
+    .scroller-track {
+        gap: 12px;
+        padding: 5px 15px;
+    }
+    
+    .feature-card {
+        flex: 0 0 calc(85vw - 30px);
+        scroll-snap-align: start;
+    }
+    
+    /* Active card highlight on mobile */
+    .feature-card:active {
+        transform: scale(0.98);
+        transition: transform 0.2s ease;
     }
 }
 
+/* Small Mobile (Below 576px) */
 @media (max-width: 575px) {
     .horizontal-scroller-wrapper {
         max-width: 100%;
         padding: 0 10px;
     }
-    
+
     .feature-card {
-        flex: 0 0 280px;
-        height: 220px;
+        flex: 0 0 calc(90vw - 20px);
+        height: 160px;
         padding: 16px 14px;
     }
-    
+
     .scroller-controls {
         margin-bottom: 15px;
     }
-    
-    .scroll-btn {
-        width: 36px;
-        height: 36px;
-        font-size: 12px;
-    }
-    
-    .indicator-dots {
-        gap: 6px;
-    }
-    
+
     .card-content h3 {
         font-size: 14px;
     }
-    
+
     .card-content p {
         font-size: 12px;
     }
-    
+
     .card-tag {
         font-size: 10px;
         padding: 3px 10px;
     }
+    
+    /* Mobile scroll enhancements */
+    .scroller-track {
+        gap: 10px;
+        padding: 5px 10px;
+    }
+    
+    .feature-card {
+        flex: 0 0 calc(85vw - 20px);
+    }
+    
+    /* Touch feedback for mobile */
+    .feature-card {
+        -webkit-tap-highlight-color: rgba(74, 111, 255, 0.2);
+    }
 }
 
+/* Extra Small Mobile (Below 400px) */
+@media (max-width: 400px) {
+    .feature-card {
+        flex: 0 0 calc(90vw - 15px);
+        height: 150px;
+        padding: 14px 12px;
+    }
+    
+    .card-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .card-content h3 {
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+    
+    .card-content p {
+        font-size: 11.5px;
+        line-height: 1.3;
+    }
+    
+    .card-number {
+        font-size: 24px;
+    }
+    
+    .scroller-track {
+        gap: 8px;
+    }
+}
+
+/* Large Desktop (1200px and above) */
+@media (min-width: 1200px) {
+    .horizontal-scroller-wrapper {
+        max-width: 1140px;
+    }
+    
+    /* Smooth scrolling for desktop with buttons */
+    .horizontal-scroll-container {
+        overflow: hidden; /* Hide scrollbar on desktop */
+    }
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) and (pointer: coarse) {
+    .feature-card:hover {
+        transform: none;
+        border-color: rgba(255, 255, 255, 0.08);
+        box-shadow: none;
+    }
+    
+    .feature-card:active {
+        transform: scale(0.98);
+        background: linear-gradient(#0f3263, #2a4a7a);
+    }
+    
+    .feature-card:hover::before {
+        transform: scaleX(0);
+    }
+    
+    .feature-card:hover .card-icon {
+        transform: none;
+        box-shadow: none;
+    }
+    
+    .feature-card:hover .card-number {
+        transform: none;
+        color: rgba(255, 255, 255, 0.07);
+    }
+    
+    .feature-card:hover .card-tag {
+        background: rgba(74, 111, 255, 0.15);
+        color: #8da4ff;
+    }
+    
+    /* Enable native scrolling on touch devices */
+    .horizontal-scroll-container {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .scroller-track {
+        transition: none;
+    }
+}
 
 /* Reviews */
 /* Patient Testimonials Section */
@@ -1360,8 +1738,13 @@
 }
 
 @keyframes spinAnimation {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .indicator-content {
@@ -1401,7 +1784,7 @@
         max-width: 960px;
         gap: 25px;
     }
-    
+
     .vertical-testimonials-container {
         height: 550px;
     }
@@ -1411,21 +1794,21 @@
     .patient-testimonials-section {
         padding: 70px 0;
     }
-    
+
     .testimonials-grid-container {
         grid-template-columns: 1fr;
         max-width: 720px;
         gap: 30px;
     }
-    
+
     .testimonials-stats-sidebar {
         position: static;
     }
-    
+
     .stats-summary-card {
         padding: 25px;
     }
-    
+
     .vertical-testimonials-container {
         height: 500px;
         padding: 20px;
@@ -1436,56 +1819,56 @@
     .patient-testimonials-section {
         padding: 60px 0;
     }
-    
+
     .section-header .section-subtitle {
         font-size: 15px;
         margin-bottom: 40px;
         padding: 0 15px;
     }
-    
+
     .testimonials-grid-container {
         max-width: 540px;
     }
-    
+
     .stats-summary-card {
         padding: 20px;
     }
-    
+
     .rating-score {
         font-size: 42px;
     }
-    
+
     .stats-value {
         font-size: 22px;
     }
-    
+
     .vertical-testimonials-container {
         height: 450px;
         padding: 18px;
     }
-    
+
     .testimonial-item {
         padding: 18px;
     }
-    
+
     .testimonial-title {
         font-size: 15px;
     }
-    
+
     .testimonial-body p {
         font-size: 13.5px;
         -webkit-line-clamp: 4;
     }
-    
+
     .scroller-controls-panel {
         padding-bottom: 15px;
         margin-bottom: 15px;
     }
-    
+
     .current-slide-number {
         font-size: 22px;
     }
-    
+
     .nav-btn {
         width: 36px;
         height: 36px;
@@ -1497,63 +1880,63 @@
     .patient-testimonials-section {
         padding: 50px 0;
     }
-    
+
     .testimonials-grid-container {
         max-width: 100%;
         padding: 0 15px;
     }
-    
+
     .stats-summary-card {
         padding: 18px;
     }
-    
+
     .rating-score {
         font-size: 38px;
     }
-    
+
     .stats-item {
         padding: 12px 0;
     }
-    
+
     .stats-icon-wrapper {
         width: 36px;
         height: 36px;
         font-size: 14px;
     }
-    
+
     .stats-value {
         font-size: 20px;
     }
-    
+
     .vertical-testimonials-container {
         height: 400px;
         padding: 15px;
     }
-    
+
     .testimonial-item {
         padding: 16px;
     }
-    
+
     .testimonial-footer {
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
     }
-    
+
     .category-tags {
         align-self: flex-start;
     }
-    
+
     .scroller-controls-panel {
         flex-direction: column;
         align-items: flex-start;
         gap: 15px;
     }
-    
+
     .navigation-buttons {
         align-self: flex-end;
     }
-    
+
     .auto-scroll-indicator {
         margin-top: 15px;
         padding-top: 15px;
@@ -1590,7 +1973,7 @@
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
-    background-color: var(--section-bg);
+    background-color: #153e77;
     color: var(--text-light);
 }
 
@@ -1614,8 +1997,8 @@ body {
 
 .section-label {
     display: inline-block;
-    background: rgba(230, 57, 70, 0.1);
-    color: var(--primary-red);
+    background: #0f3263;
+    color: white;
     font-size: 14px;
     font-weight: 600;
     padding: 10px 24px;
@@ -1635,7 +2018,7 @@ body {
 
 .section-subtitle {
     font-size: 18px;
-    color: var(--text-gray);
+    color: white;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -1689,14 +2072,14 @@ body {
 }
 
 .faq-question[aria-expanded="true"] {
-    background: rgba(230, 57, 70, 0.08);
-    border-bottom: 1px solid rgba(230, 57, 70, 0.2);
+    background: #0f3263;
+    border-bottom: 1px solid #1a1a1a;
 }
 
 .question-number {
     font-size: 16px;
     font-weight: 700;
-    color: var(--primary-red);
+    color: white;
     min-width: 35px;
 }
 
@@ -1708,7 +2091,7 @@ body {
 }
 
 .toggle-icon {
-    color: var(--primary-red);
+    color: white;
     font-size: 14px;
     transition: transform var(--transition-speed) ease;
     min-width: 20px;
@@ -1720,7 +2103,7 @@ body {
 }
 
 .faq-question[aria-expanded="true"] .question-text {
-    color: var(--primary-red);
+    color: ;
 }
 
 /* FAQ Answer */
@@ -1750,33 +2133,33 @@ body {
     .faq-section {
         padding: 80px 20px;
     }
-    
+
     .section-heading {
         font-size: 36px;
     }
-    
+
     .faq-container {
         gap: 25px;
     }
-    
+
     .faq-question {
         padding: 22px 24px;
     }
-    
+
     .question-text {
         font-size: 17px;
     }
-    
+
     .emergency-contact-box {
         padding: 30px;
     }
-    
+
     .contact-icon-container {
         width: 60px;
         height: 60px;
         font-size: 22px;
     }
-    
+
     .contact-details h3 {
         font-size: 22px;
     }
@@ -1788,44 +2171,44 @@ body {
         grid-template-columns: 1fr;
         gap: 18px;
     }
-    
+
     .section-intro {
         margin-bottom: 50px;
     }
-    
+
     .section-heading {
         font-size: 32px;
     }
-    
+
     .section-subtitle {
         font-size: 16px;
     }
-    
+
     .faq-question {
         padding: 20px 22px;
         gap: 15px;
     }
-    
+
     .question-text {
         font-size: 16px;
     }
-    
+
     .question-number {
         min-width: 30px;
         font-size: 15px;
     }
-    
+
     .faq-answer p {
         padding: 0 22px 22px;
         font-size: 15px;
     }
-    
+
     .contact-content {
         flex-direction: column;
         text-align: center;
         gap: 25px;
     }
-    
+
     .emergency-call-btn {
         width: 100%;
         justify-content: center;
@@ -1838,55 +2221,55 @@ body {
     .faq-section {
         padding: 60px 15px;
     }
-    
+
     .section-label {
         font-size: 12px;
         padding: 8px 18px;
     }
-    
+
     .section-heading {
         font-size: 28px;
     }
-    
+
     .section-subtitle {
         font-size: 15px;
         padding: 0 10px;
     }
-    
+
     .faq-question {
         padding: 18px 20px;
         gap: 12px;
     }
-    
+
     .question-text {
         font-size: 15px;
     }
-    
+
     .question-number {
         min-width: 28px;
         font-size: 14px;
     }
-    
+
     .faq-answer p {
         padding: 0 20px 20px;
         font-size: 14px;
     }
-    
+
     .emergency-contact-box {
         padding: 25px 20px;
         margin-top: 30px;
     }
-    
+
     .contact-icon-container {
         width: 55px;
         height: 55px;
         font-size: 20px;
     }
-    
+
     .contact-details h3 {
         font-size: 20px;
     }
-    
+
     .contact-details p {
         font-size: 15px;
     }
@@ -1897,20 +2280,20 @@ body {
     .faq-question {
         padding: 16px 18px;
     }
-    
+
     .question-text {
         font-size: 14px;
     }
-    
+
     .toggle-icon {
         font-size: 12px;
     }
-    
+
     .emergency-call-btn {
         font-size: 15px;
         padding: 14px 25px;
     }
-    
+
     .section-heading {
         font-size: 24px;
     }
@@ -1923,21 +2306,21 @@ body {
         background: white;
         color: black;
     }
-    
+
     .faq-card {
         break-inside: avoid;
         border: 1px solid #ddd;
     }
-    
+
     .faq-question[aria-expanded="true"] {
         background: #f5f5f5;
     }
-    
+
     .faq-answer {
         max-height: none !important;
         display: block !important;
     }
-    
+
     .emergency-contact-box {
         display: none;
     }

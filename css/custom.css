@@ -7460,7 +7460,7 @@ body>script:last-of-type {
     border: none;
     border-radius: 14px;
     overflow: hidden;
-    background: #ffffff;
+    background: linear-gradient(180deg, #84afeb 0%, #0c68e91a 100%);
     box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
     padding: 2.80rem !important;
     display: flex;

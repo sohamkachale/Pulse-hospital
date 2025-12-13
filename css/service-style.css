@@ -236,6 +236,7 @@
 
 
 
+
 /* Services Grid */
 .emergency-services-section {
     padding: 100px 0;
@@ -424,6 +425,99 @@
 
 
 /* Why Choose Us Section - Horizontal Scroller */
+.horizontal-scroller-wrapper {
+  position: relative; /* Ensure the wrapper is positioned relatively for the arrows to be placed on the sides */
+  overflow: hidden; /* Hide anything that exceeds the bounds of the container */
+}
+
+.horizontal-scroll-container {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  scroll-snap-type: x mandatory; /* Ensure smooth scrolling */
+  gap: 15px;
+}
+
+.scroller-track {
+  display: flex;
+}
+
+.feature-card {
+  width: 200px;
+  flex-shrink: 0;
+  background: #f7f7f7;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.scroller-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 100%; /* Take up the full width of the parent container */
+}
+
+.scroll-btn {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.scroll-prev {
+  position: absolute;
+  left: 25px; /* Place it on the left side of the container */
+}
+
+.scroll-next {
+  position: absolute;
+  right: 20px; /* Place it on the right side of the container */
+}
+
+.scroll-btn:hover {
+  color: #000;
+}
+
+.scroll-indicator {
+  display: none;
+}
+
+.scroll-hint {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #888;
+  font-size: 14px;
+}
+
+.scroll-hint i {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+/* For the active dot and hover effect */
+.indicator-dots .dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.indicator-dots .dot.active {
+  background-color: #333;
+}
+
 .why-emergency-section {
     padding: 80px 0;
     position: relative;
@@ -657,6 +751,8 @@
     background: #4a6fff;
     color: white;
 }
+
+
 
 /* Scroll Hint */
 .scroll-hint {

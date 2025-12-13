@@ -7687,7 +7687,7 @@ body>script:last-of-type {
 /* -----  SERVICE CARD  ----- */
 .service-card {
     flex: 0 0 280px;
-    background: linear-gradient(135deg, #0f3263, #234471);
+    background: linear-gradient(135deg, #0f3263, #335688);
     border: 1px solid rgba(255, 255, 255, .06);
     border-radius: 14px;
     padding: 24px 20px;

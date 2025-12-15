@@ -328,7 +328,7 @@
 /* Emergency Card Stack - Desktop (unchanged) */
 .emergency-card-stack {
     position: relative;
-    height: 400px;
+    height: 450px;
 }
 
 .card-stack-item {
@@ -361,7 +361,7 @@
 }
 
 .card-3 {
-    bottom: -70px;
+    bottom: 0   ;
     right: 40px;
     width: 280px;
 }
@@ -402,20 +402,24 @@
     .card-stack-item {
         padding: 22px;
         width: 260px;
+        margin-bottom: 30px;
     }
     
     .card-1 {
         right: 10px;
+        margin-bottom: 30px;
     }
     
     .card-2 {
         left: 10px;
         top: 120px;
+        margin-bottom: 30px;
     }
     
     .card-3 {
         right: 30px;
         bottom: -60px;
+        margin-bottom: 30px;
     }
 }
 
@@ -433,16 +437,19 @@
     .card-1 {
         right: 20px;
         top: 10px;
+        margin-bottom: 30px;
     }
     
     .card-2 {
         left: 20px;
         top: 110px;
+        margin-bottom: 30px;
     }
     
     .card-3 {
         right: 20px;
         bottom: -50px;
+        margin-bottom: 30px;
     }
     
     /* Mobile hover effect - less movement */
@@ -451,7 +458,7 @@
         box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
     }
 }
-
+/* mobile se */
 @media (max-width: 576px) {
     .emergency-card-stack {
         height: 340px;
@@ -466,18 +473,20 @@
     }
     
     .card-1 {
-        right: 20px;
-        top: 5px;
+        right: -10px;
+        top: -30px;
     }
     
     .card-2 {
-        left: 20px;
-        top: 100px;
+        left: -20px;
+        top: 70px;
+        margin-bottom: 30px;
     }
     
     .card-3 {
-        right: 20px;
-        bottom: -40px;
+        right: -10px;
+        bottom: -50px;
+        margin-bottom: 50px;
     }
     
     .card-icon {
@@ -514,17 +523,18 @@
     }
     
     .card-1 {
-        right: 20px;
+        right: -20px;
+        
     }
     
     .card-2 {
-        left: 20px;
-        top: 90px;
+        left: -20px;
+        top: 70px;
     }
     
     .card-3 {
-        right: 20px;
-        bottom: -30px;
+        right: -20px;
+        bottom: -55px;
     }
     
     .card-icon {

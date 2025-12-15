@@ -4593,7 +4593,7 @@ body {
     background-color: var(--accent-secondary-color);
     border-radius: 20px;
     margin-bottom: 30px;
-    padding: 30px;
+    padding: 10px;
 }
 
 .team-sidebar-image {

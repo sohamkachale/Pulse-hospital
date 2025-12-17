@@ -6,10 +6,13 @@ const reviews = [
   { author: "Kunal P. – Tathawade", text: "Dr. Rutuja Mehta from dermatology explained my condition in simple terms and helped me get visible results within weeks. I’m so grateful." },
 ];
 
+
 /* ===== INJECT CARDS ===== */
 const container = document.getElementById("scrollableCards");
-reviews.forEach(r => {
-  container.insertAdjacentHTML("beforeend", `
+reviews.forEach((r) => {
+  container.insertAdjacentHTML(
+    "beforeend",
+    `
     <article class="review-card">
       <div class="review-header">
         <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
@@ -17,8 +20,10 @@ reviews.forEach(r => {
       </div>
       <p class="review-text">${r.text}</p>
     </article>
-  `);
+  `
+  );
 });
+
 
 /* ===== GSAP SCROLL REVEAL (ONLY CARDS) ===== */
 gsap.registerPlugin(ScrollTrigger);

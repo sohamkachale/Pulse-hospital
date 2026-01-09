@@ -7292,6 +7292,7 @@ body {
 
     .footer-social-links span {
         font-size: 18px;
+        color: var(--pulse-light);
     }
 
     .footer-copyright {
@@ -9064,4 +9065,9 @@ body {
     .vm-hero-subtitle {
         font-size: 16px;
     }
+}
+.blog-post a {
+    color: #0C68E9;
+    font-weight: 700;
+    transition: color 0.3s ease;
 }

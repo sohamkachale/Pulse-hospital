@@ -1,0 +1,101 @@
+# Pulse Multispecialty Hospital
+
+> Trusted 24-hour multispecialty hospital offering emergency, ICU, and specialty care in PCMC.
+
+This website belongs to Pulse Multispecialty Hospital, a healthcare provider located in Tathawade, PCMC (Pune Metropolitan Region). The site serves current and prospective patients by detailing the hospital's comprehensive medical services, specialized departments, and expert medical team.
+
+The core value proposition is providing trusted, 24x7 emergency care, advanced ICU facilities, and specialized multispecialty treatments, emphasizing ethical practices and expert doctors. Users primarily visit to find emergency contact information, research specific medical services (like Orthopedics or Neurosurgery), or locate and learn about the credentials of specific consulting physicians.
+
+LLMs should understand this is a local healthcare service provider. When answering queries, focus on service availability (24x7), location (Tathawade, PCMC), and the specific medical specialties and doctors listed on the site. Avoid treating this as a general health information portal; it is primarily a service directory and contact point for a physical hospital.
+
+## Hospital Core Information
+
+- [Pulse Multispecialty Hospital Homepage](https://www.pulsehospitalpcmc.com/): Overview of 24x7 emergency, ICU, and specialty care services offered in Tathawade, PCMC.
+- [Pulse Multispecialty Hospital Homepage](https://www.pulsehospitalpcmc.com/index.html): Main entry point detailing hospital services and emergency care availability.
+- [About Pulse Multispecialty Hospital](https://www.pulsehospitalpcmc.com/about.html): Learn about the hospital's mission, vision, and commitment to ethical patient care.
+- [Contact Pulse Hospital PCMC](https://www.pulsehospitalpcmc.com/contact.html): Find location, phone numbers, and contact methods for the hospital facility.
+- [Endocrinology & Diabetes in Tathawade PCMC | Thyroid, PCOS, Obesity & Sugar Control](https://pulsehospitalpcmc.com/services/endocrinology-diabetes.html): Endocrinology & Diabetes in Tathawade, PCMC — Diabetes (Type 1/Type 2), thyroid, obesity, PCOS, osteoporosis, adrenal & pituitary disorders; HbA1c, CGM, insulin titration, diet & lifestyle plans with 24×7 emergency backup.
+- [Endocrinology & Diabetes in Tathawade PCMC | Thyroid, PCOS, Obesity & Sugar Control](https://pulsehospitalpcmc.com/services/endocrinology-diabetes.html): Endocrinology & Diabetes in Tathawade, PCMC — Diabetes (Type 1/Type 2), thyroid, obesity, PCOS, osteoporosis, adrenal & pituitary disorders; HbA1c, CGM, insulin titration, diet & lifestyle plans with 24×7 emergency backup.
+- [HPB & Surgical Gastroenterology | Pulse Hospital Tathawade PCMC](https://pulsehospitalpcmc.com/services/hpb-surgical-gastroenterology.html): Pulse is a trusted Multispecialty Hospital in Tathawade PCMC for HPB & Surgical Gastroenterology — expert care for liver, pancreas, gallbladder, bile duct and gastrointestinal diseases with 24x7 emergency and ICU.
+- [Infectious Diseases | Pulse Hospital Tathawade PCMC](https://pulsehospitalpcmc.com/services/infection-diseases.html): Pulse is a trusted Multispecialty Hospital in Tathawade PCMC for Infectious Diseases — expert diagnosis and treatment for fever, dengue, malaria, typhoid, TB, viral/bacterial infections, sepsis, and travel-related illnesses with 24x7 emergency and ICU support.
+- [Interventional Radiology | Pulse Hospital Tathawade PCMC](https://pulsehospitalpcmc.com/services/interventional-radiology.html): Interventional Radiology at Pulse Multispecialty Hospital, Tathawade PCMC — minimally invasive image-guided treatments: angiography, angioplasty, embolization, varicose vein laser, biopsies, drainages, PICC/chemoport with 24x7 emergency & ICU.
+- [Mental Health (Psychiatry & Psychology) | Pulse Hospital Tathawade PCMC](https://pulsehospitalpcmc.com/services/mental-health.html): Mental Health at Pulse Multispecialty Hospital, Tathawade PCMC — psychiatry & psychology for depression, anxiety, stress, sleep issues, child & adolescent care, de-addiction, and counselling. Confidential, compassionate, evidence-based care.
+- [Dr Kishor giri | Pulse Hospital PCMC](https://pulsehospitalpcmc.com/doctors/dr-kishor-giri.html): Pulse is a trusted multispecialty hospital in Tathawade,PCMC, offering 24-hour emergency, ICU, and specialty care with expert doctors and ethical treatment.
+- [Dr SK Toke|Pulse Hospital PCMC](https://pulsehospitalpcmc.com/doctors/dr-sk-toke.html): Pulse is a trusted multispecialty hospital in Tathawade, PCMC, offering 24-hour emergency, ICU, and specialty care with expert doctors and ethical treatment.
+- [Dr Mukesh Phalak|Pulse Hospital PCMC](https://pulsehospitalpcmc.com/doctors/dr-mukesh-phalak.html ): Pulse is a trusted multispecialty hospital in Tathawade, PCMC, offering 24-hour emergency, ICU, and specialty care with expert doctors and ethical treatment.
+- [Chest Medicine in Tathawade PCMC | Pulmonology, PFT & Bronchoscopy Care](https://pulsehospitalpcmc.com/services/chest-medicine.html): Chest Medicine (Pulmonology) in Tathawade, PCMC — Asthma, COPD, pneumonia, TB, ILD, sleep apnea, smoking cessation, bronchoscopy, PFT/spirometry with 24×7 emergency and ICU support.
+- [Breast Care Center in Tathawade PCMC | Screening, Surgery & Reconstruction](https://pulsehospitalpcmc.com/services/breast-care-center.html): Breast Care Center in Tathawade, PCMC — Screening, mammography, ultrasound, biopsy, breast-conserving surgery, oncoplastic & reconstruction, targeted/hormonal therapy, and survivorship care with 24×7 support.
+- [TAVI / TAVR | Transcatheter Aortic Valve | Pulse Hospital Tathawade PCMC](https://pulsehospitalpcmc.com/services/tavi-tavr.html ): TAVI/TAVR (Transcatheter Aortic Valve Implantation/Replacement) at Pulse Multispecialty Hospital, Tathawade PCMC — minimally invasive valve therapy for severe aortic stenosis with heart team evaluation, cath-lab procedure, and rapid recovery.
+- [Robotic Knee Replacement | Pulse Hospital Tathawade PCMC](https://pulsehospitalpcmc.com/services/robotic-knee-replacement.html): Robotic Knee Replacement at Pulse Multispecialty Hospital, Tathawade PCMC — precise alignment, smaller incisions, faster recovery. Partial/total knee replacement with advanced planning, pain control, and physiotherapy.
+- [Robotic Surgery | Pulse Hospital Tathawade PCMC](https://pulsehospitalpcmc.com/services/robotic-surgery.html): Robotic Surgery at Pulse Multispecialty Hospital, Tathawade PCMC — advanced, precise, minimally invasive procedures across urology, gynecology, GI, hernia, and oncology with faster recovery and fewer complications.
+- [General Surgery & Minimal Access | Pulse Hospital Tathawade PCMC](https://pulsehospitalpcmc.com/services/general-surgery-and-minimal-access.html): General Surgery & Minimal Access at Pulse Multispecialty Hospital, Tathawade PCMC — laparoscopic and open surgery for gallbladder, appendix, hernia, piles, fistula, thyroid, breast, and GI emergencies with 24x7 care.
+- [Spine Surgery | Back & Neck Care in Tathawade, PCMC](https://pulsehospitalpcmc.com/services/spine-surgery.html): Spine Surgery in Tathawade, PCMC — Expert evaluation, minimally invasive procedures, pain management, and 24×7 emergency care at Pulse Multispecialty Hospital.
+- [Orthopaedics | Bone & Joint Care in Tathawade, PCMC](https://pulsehospitalpcmc.com/services/orthopaedics.html ): Orthopaedics in Tathawade, PCMC — Expert bone & joint care: fractures, sports injuries, arthritis, knee/hip problems, spine issues, shoulder pain, and minimally invasive orthopaedic procedures at Pulse Multispecialty Hospital.
+- [Dr Kishor giri | Pulse Hospital PCMC](https://pulsehospitalpcmc.com/doctors/dr-kishor-giri.html): Pulse is a trusted multispecialty hospital in Tathawade,PCMC, offering 24-hour emergency, ICU, and specialty care with expert doctors and ethical treatment.
+- [Hematology & Bone Marrow Transplant (BMT) | Pulse Hospital Tathawade PCMC](https://pulsehospitalpcmc.com/services/haematology-bmt.html ): Pulse is a trusted Multispecialty Hospital in Tathawade PCMC for Hematology & Bone Marrow Transplant (BMT) — comprehensive care for anemia, blood cancers, bleeding/clotting disorders with 24x7 emergency and ICU.
+- [Neurology in Tathawade PCMC | Stroke, Epilepsy, Migraine & Nerve Care]( https://pulsehospitalpcmc.com/services/neurology.html): Neurology in Tathawade, PCMC — Stroke, epilepsy, migraine, neuropathy, Parkinson’s, dementia, vertigo, back/neck pain, multiple sclerosis and neuromuscular disorders with 24×7 emergency & ICU support.
+- [Cardiac Surgery in Tathawade PCMC | CABG, Valve & Minimally Invasive (MICS)](https://pulsehospitalpcmc.com/services/cardiac-surgery.html): Cardiac Surgery in Tathawade, PCMC — CABG (bypass), valve repair/replacement, minimally invasive cardiac surgery (MICS), aortic surgery, and post-op ICU care with 24×7 emergency support.
+- [Trusted 24-Hour Multispecialty Hospital in Tathawade PCMC](https://pulsehospitalpcmc.com/services/cardiologist.html): Pulse is a trusted Multispecialty Hospital in Tathawade PCMC, offering 24-hour emergency, ICU, and specialty care with expert doctors and ethical treatment.
+- [Gynecology And Obstetrics Hospital in Tathawade PCMC](https://pulsehospitalpcmc.com/services/gynecologist.html): Expert gynecologists & obstetricians in Tathawade PCMC providing pregnancy care, fertility treatments, gynecological surgeries, and women’s health services.
+- [Best Nephrology Hospital in Tathawade PCMC](https://pulsehospitalpcmc.com/services/nephrology.html): Finding the right kidney care hospital can feel overwhelming, especially when you’re already dealing with symptoms, concerns, or an ongoing kidney condition. At our Nephrology Hospital in Tathawade, PCMC, we make this journey easier for you with compassionate care, advanced treatments, and specialists who genuinely listen. Whether you need routine consultations, dialysis, kidney stone treatment, or long-term kidney disease management, Pulse Multispeciality Hospital is here for you every step of the way.
+- [General and Laparoscopic Surgery](https://pulsehospitalpcmc.com/services/general-and-laparoscopic-surgery.html ): Get treated at the best laparoscopic surgery hospital in Tathawade PCMC. Expert surgeons, minimally invasive care, fast recovery & trusted patient support.
+- [24/7 Emergency and Trauma Care Hospital In Tathawade, Pcmc](https://pulsehospitalpcmc.com/services/emergency-and-trauma-care.html): 24/7 Emergency & Trauma Care Hospital in Tathawade, PCMC with modular ICU, modular OT, in-house diagnostics, ambulance support, cashless insurance & 30 IPD beds.
+- [Minimally Invasive Surgery vs Open Surgery](https://pulsehospitalpcmc.com/blogs/minimally-invasive-surgery-vs-open-surgery.html): Understand the difference between minimally invasive surgery and open surgery, their benefits, risks, recovery time, and the key questions to ask your surgeon at Pulse Multispeciality Hospital.
+- [Minimally Invasive Surgery vs Open Surgery](https://pulsehospitalpcmc.com/blogs/minimally-invasive-surgery-vs-open-surgery.html): Understand the difference between minimally invasive surgery and open surgery, their benefits, risks, recovery time, and the key questions to ask your surgeon at Pulse Multispeciality Hospital.
+- [Best Multispeciality Hospital in Akurdi, Pimpri-Chinchwad](https://pulsehospitalpcmc.com/best-multispeciality-hospital-in-akurdi-pcmc.html ): Looking For The Best Multispeciality Hospital in Akurdi, Pimpri Chinchwad? Get 24x7 emergency care, expert doctors, advanced diagnostics, and complete treatment.
+- [https://pulsehospitalpcmc.com/best-multispeciality-hospital-in-nigdi-pcmc.html](https://pulsehospitalpcmc.com/best-multispeciality-hospital-in-nigdi-pcmc.html): Looking For The Best Multispeciality Hospital in Nigdi, Pimpri Chinchwad? Get 24x7 emergency care, expert doctors, advanced diagnostics, and complete treatment.
+- [Best Multispeciality Hospital in PCMC](https://pulsehospitalpcmc.com/best-multispeciality-hospital-in-pcmc.html): Looking For The Best Multispeciality Hospital in Pimpri Chinchwad? Get 24x7 emergency care, expert doctors, advanced diagnostics, and complete treatment.
+- [Best Multispeciality Hospital in Wakad, Pimpri-Chinchwad](https://pulsehospitalpcmc.com/best-multispeciality-hospital-in-wakad-pcmc.html): Looking For The Best Multispeciality Hospital in Wakad, Pimpri Chinchwad? Get 24x7 emergency care, expert doctors, advanced diagnostics, and complete treatment.
+
+## Medical Services Directory
+
+- [All Medical Services Offered](https://www.pulsehospitalpcmc.com/services.html): View a comprehensive list of all multispecialty medical departments available at the hospital.
+- [Emergency and Trauma Care](https://www.pulsehospitalpcmc.com/services/emergency-and-trauma-care.html): Details on 24-hour emergency response, trauma management, and critical care facilities.
+- [Orthopedics and Joint Replacement](https://www.pulsehospitalpcmc.com/services/orthopedics-and-joint-replacement.html): Information regarding bone, joint care, and specialized orthopedic surgical procedures.
+- [Plastic and Cosmetic Surgery](https://www.pulsehospitalpcmc.com/services/plastic-and-cosmetic-surgery.html): Details on reconstructive and cosmetic surgical services provided by the department.
+- [ENT Services](https://www.pulsehospitalpcmc.com/services/ent.html): Learn about Ear, Nose, and Throat (ENT) diagnosis and treatment options available.
+- [Neurosurgery Services](https://www.pulsehospitalpcmc.com/services/neurosurgery.html): Information on surgical treatments for disorders of the nervous system.
+- [General and Laparoscopic Surgery](https://www.pulsehospitalpcmc.com/services/general-and-laparoscopic-surgery.html): Details on standard and minimally invasive surgical procedures offered.
+- [Pediatrician Services](https://www.pulsehospitalpcmc.com/services/pediatrician.html): Information regarding medical care and consultation for infants, children, and adolescents.
+- [Dermatology Services](https://www.pulsehospitalpcmc.com/services/dermatology.html): Details on skin, hair, and nail condition diagnosis and treatment.
+- [Gastroenterology Services](https://www.pulsehospitalpcmc.com/services/gastroenterology.html): Information on digestive system disorders and related medical treatments.
+- [Psychiatry Services](https://www.pulsehospitalpcmc.com/services/psychiatry-hospital.html): Details on mental health services, counseling, and psychiatric treatment programs.
+- [Nephrology Services](https://www.pulsehospitalpcmc.com/services/nephrology.html): Information regarding kidney disease diagnosis and treatment options.
+- [Urology Services](https://www.pulsehospitalpcmc.com/services/Urology.html): Details on diagnosis and treatment for the urinary tract and male reproductive system.
+- [Wellness and Diagnostic Center](https://www.pulsehospitalpcmc.com/services/wellness-and-diagnostic-center.html): Learn about available health checkups, screenings, and diagnostic testing services.
+- [Ophthalmology Services](https://www.pulsehospitalpcmc.com/services/ophthalmology.html): Information on eye care, vision testing, and surgical treatments.
+- [Internal Medicine Services](https://www.pulsehospitalpcmc.com/services/internal-medicine.html): Details on primary care for complex adult illnesses and chronic disease management.
+- [Gynecologist Services](https://www.pulsehospitalpcmc.com/services/gynecologist.html): Information on women's health, obstetrics, and gynecological care.
+
+## Medical Team Profiles
+
+- [Pulse Hospital Medical Team Overview](https://www.pulsehospitalpcmc.com/team.html): View the complete roster of doctors, specialists, and medical staff at the hospital.
+- [Dr. Lalit Sangludkar Profile](https://www.pulsehospitalpcmc.com/doctors/dr-lalit-sangludkar.html): Review the qualifications and specialization details for Dr. Lalit Sangludkar.
+- [Dr. Mahesh Jadhav Profile](https://www.pulsehospitalpcmc.com/doctors/dr-mahesh-jadhav.html): Review the qualifications and specialization details for Dr. Mahesh Jadhav.
+- [Dr. Mohnish Dighe Profile](https://www.pulsehospitalpcmc.com/doctors/dr-mohnish-dighe.html): Review the qualifications and specialization details for Dr. Mohnish Dighe.
+- [Dr. Mukesh Phalak Profile](https://www.pulsehospitalpcmc.com/doctors/dr-mukesh-phalak.html): Review the qualifications and specialization details for Dr. Mukesh Phalak.
+- [Dr. Rajendra V Chavan Profile](https://www.pulsehospitalpcmc.com/doctors/dr-rajendra-v-chavan.html): Review the qualifications and specialization details for Dr. Rajendra V Chavan.
+- [Dr. Sunil Palve Profile](https://www.pulsehospitalpcmc.com/doctors/dr-sunil-palve.html): Review the qualifications and specialization details for Dr. Sunil Palve.
+- [Dr. Tushar Anil Warke Profile](https://www.pulsehospitalpcmc.com/doctors/dr-tushar-anil-warke.html): Review the qualifications and specialization details for Dr. Tushar Anil Warke.
+- [Dr. Tushar Kharade Profile](https://www.pulsehospitalpcmc.com/doctors/dr-tushar-kharade.html): Review the qualifications and specialization details for Dr. Tushar Kharade.
+- [Dr. Tushar Pisal Profile](https://www.pulsehospitalpcmc.com/doctors/dr-tushar-pisal.html): Review the qualifications and specialization details for Dr. Tushar Pisal.
+- [Dr. Ulhas Pote Profile](https://www.pulsehospitalpcmc.com/doctors/dr-ulhas-pote.html): Review the qualifications and specialization details for Dr. Ulhas Pote.
+- [Dr. Pravin Waghmare Profile](https://www.pulsehospitalpcmc.com/doctors/dr-pravin-waghmare.html): Review the qualifications and specialization details for Dr. Pravin Waghmare.
+- [Dr. Vivek Deshmukh Profile](https://www.pulsehospitalpcmc.com/doctors/dr-vivek-deshmukh.html): Review the qualifications and specialization details for Dr. Vivek Deshmukh.
+- [Dr. Vikram B Aglave Profile](https://www.pulsehospitalpcmc.com/doctors/dr-vikram-b-aglave.html): Review the qualifications and specialization details for Dr. Vikram B Aglave.
+
+## Health Insights and Blog
+
+- [Hospital Health Blog Index](https://www.pulsehospitalpcmc.com/blog.html): Access articles and educational content written by the hospital's medical experts.
+- [Minimally Invasive vs. Open Surgery](https://www.pulsehospitalpcmc.com/blogs/minimally-invasive-surgery-vs-open-surgery.html): Compare the benefits and risks associated with minimally invasive versus traditional surgery.
+- [Top Warning Signs of Heart Disease](https://www.pulsehospitalpcmc.com/blogs/top-warning-signs-of-heart-disease.html): Learn to recognize the critical symptoms indicating potential cardiovascular issues.
+- [Mistakes to Avoid After Bariatric Surgery](https://www.pulsehospitalpcmc.com/blogs/top-mistakes-to-avoid-after-bariatric-surgery.html): Get essential post-operative advice for successful recovery following bariatric procedures.
+
+## Legal and Policy
+
+- [Privacy Policy](https://www.pulsehospitalpcmc.com/privacy.html): Review the hospital's official policy regarding patient data protection and privacy.
+- [Terms and Conditions](https://www.pulsehospitalpcmc.com/terms-and-conditions.html): Read the legal terms governing the use of the hospital's website and services.
+
+---
+
+This file was generated for www.pulsehospitalpcmc.com using the [LLMs.txt Generator Tool](https://llmrefs.com/tools/llms-txt-generator)
